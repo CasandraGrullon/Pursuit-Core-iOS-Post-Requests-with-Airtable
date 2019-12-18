@@ -12,5 +12,5 @@ struct Project: Codable {
     enum CodingKeys: String, CodingKey {
         case dueDate = "Due date"
         case name = "Name"
-    }
+    } 
 }
